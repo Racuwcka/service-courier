@@ -1,0 +1,8 @@
+app:
+  name: courier-service
+  port: 8082
+
+kafka:
+  brokers:
+    - kafka:9092
+  order_topic: order.status.changed
